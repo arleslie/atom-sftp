@@ -6,7 +6,7 @@
   "activationCommands": {
     "atom-workspace": "atom-sftp:toggle"
   },
-  "repository": "https://github.com/arleslie/atom-sftp",
+  "repository": "https://github.com/arleslie3/atom-sftp",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
