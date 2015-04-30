@@ -1,0 +1,16 @@
+{
+  "name": "atom-SFTP",
+  "main": "./lib/s-f-t-p",
+  "version": "0.0.0",
+  "description": "A plugin for the atom text editor",
+  "activationCommands": {
+    "atom-workspace": "atom-SFTP:toggle"
+  },
+  "repository": "https://github.com/arleslie/atom-SFTP",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
