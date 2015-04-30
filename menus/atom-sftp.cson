@@ -1,9 +1,20 @@
-# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle atom-sftp'
-      'command': 'atom-sftp:toggle'
+      'label': 'Add SFTP Server'
+      'command': 'atom-sftp:addServer'
+    },
+    {
+      'label': 'Edit SFTP Servers'
+      'command': 'atom-sftp:editServer'
+    },
+    {
+      'label': 'Delete SFTP Servers'
+      'command': 'atom-sftp:deleteServer'
+    },
+    {
+      'label': 'Browse SFTP Server'
+      'command': 'atom-sftp:browseServer'
     }
   ]
 'menu': [
